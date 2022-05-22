@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(250, 189, 76);
+  background-image: url("../../assets/img/alessandro-sacchi-NUFnfYd09iI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+header {
+  background-color: rgb(85, 84, 84);
+  height: 15vh;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+  color: rgb(251, 149, 90);
+  text-shadow: 0 0 2px black;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+header nav ul li {
+  padding: 3rem 2rem;
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(237, 248, 218);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 1.5rem;
+}
+
+ul li a:hover {
+  text-shadow: 0 0 5px white;
+}
+
+#homepage,
+#favourites,
+#hobbies {
+  font-size: 1.5rem;
+  font-weight: 520;
+  margin: 2rem 12rem;
+  text-align: center;
+  color: rgb(37, 37, 37);
+}
+
+#favourites ul li,
+#hobbies ul li {
+  list-style-type: none;
+  margin: 1rem;
+}
+
+h1 {
+  margin-bottom: 2rem;
+}
